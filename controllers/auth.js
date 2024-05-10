@@ -134,7 +134,7 @@ export const googleLogin = async (req, res) => {
             }
           );
         })
-        .catch((err) => console.log("error saving userData", err));
+        .catch((err) => console.log("error saving userDat", err));
     }
   });
 };
